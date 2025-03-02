@@ -68,7 +68,7 @@ class LeetConverter(loader.Module):
             )
     
     async def leetcmd(self, message: Message):
-        """Смена соо<reply>"""
+        """Leet-замена по <reply>"""
         
         reply = await message.get_reply_message()
         
@@ -76,7 +76,7 @@ class LeetConverter(loader.Module):
 
         await utils.answer(
             message=message,
-            response=f" <b>Редактированное сообщение</b>:\n\n{translated_text}"
+            response=f" <b>Leet-заменённое сообщение</b>:\n\n{translated_text}"
         )
 
     
