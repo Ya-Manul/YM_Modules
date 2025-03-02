@@ -50,7 +50,7 @@ class LeetConverter(loader.Module):
         self.enabled = self.db.get("Leet_Converter", "enabled", False)
     
     async def leerercmd(self, message: Message):
-        """Включить или отключить режим еблана"""
+        """Включить или отключить режим Leet-замены"""
         
         self.enabled = not self.enabled
         self.db.set("leet", "enabled", self.enabled)
