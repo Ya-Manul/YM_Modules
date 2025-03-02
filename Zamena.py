@@ -1,4 +1,4 @@
-# meta developer @Berki_Modul @ManulMods
+# meta developer: @Berki_Modul, @ManulMods
 
 # License for Module Use
 
