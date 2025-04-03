@@ -7,7 +7,7 @@ from .. import loader, utils
 
 @loader.tds
 class AutoResponderMod(loader.Module):
-    """Автоматические ответы с управлением чатами"""
+    """Автоматические ответы с управлением"""
 
     strings = {
         "name": "AutoResponder",
@@ -112,7 +112,7 @@ class AutoResponderMod(loader.Module):
 
     @loader.command(ru_doc="Включить/выключить глобально")
     async def aatoggle(self, message: Message):
-        """Переключить глобальный статус"""
+        """Вкл/выкл Глобального управления"""
         self._global_enabled = not self._global_enabled
         self._save()
         status = "✅ Включён" if self._global_enabled else "❌ Выключен"
@@ -123,7 +123,7 @@ class AutoResponderMod(loader.Module):
 
     @loader.command(ru_doc="Включить в текущем чате")
     async def aaon(self, message: Message):
-        """Активировать автоответы в чате"""
+        """Вкл автоответы в чате"""
         chat_id = utils.get_chat_id(message)
         if chat_id in self._active_chats:
             return await utils.answer(message, "ℹ️ Уже включено в этом чате")
@@ -134,7 +134,7 @@ class AutoResponderMod(loader.Module):
 
     @loader.command(ru_doc="Выключить в текущем чате")
     async def aaoff(self, message: Message):
-        """Деактивировать автоответы в чате"""
+        """Выкл автоответы в чате"""
         chat_id = utils.get_chat_id(message)
         if chat_id not in self._active_chats:
             return await utils.answer(message, "ℹ️ Уже выключено в этом чате")
