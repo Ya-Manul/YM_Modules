@@ -200,4 +200,4 @@ class CurrencyConverterMod(loader.Module):
             await utils.answer(
                 message,
                 self.strings("error").format("Не удалось обновить курсы")
-            )
+            ) 
