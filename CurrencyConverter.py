@@ -1,4 +1,4 @@
-#meta developer @ManulMods 
+#meta developer: @ManulMods
 
 from hikkatl.types import Message
 from hikkatl.errors import RPCError
