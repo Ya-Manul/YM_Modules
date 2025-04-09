@@ -21,7 +21,6 @@ class CurrencyConverterMod(loader.Module):
         "updated": "<emoji document_id=5220219696711736568>✔️</emoji> Курсы успешно обновлены!",
         "available_currencies": "Доступные валюты: доллар/USD, руб/RUB, евро/EUR, гривна/UAH, тенге/KZT, юань/CNY, ton/TON",
     }
-
     def __init__(self):
         self.config = loader.ModuleConfig(
             loader.ConfigValue(
