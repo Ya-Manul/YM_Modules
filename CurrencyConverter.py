@@ -1,3 +1,5 @@
+# meta developer: @ManulMods
+
 from hikkatl.types import Message
 from hikkatl.errors import RPCError
 from .. import loader, utils
