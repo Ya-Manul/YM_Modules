@@ -450,7 +450,7 @@ class IrisMods(loader.Module):
             "<a href='https://t.me/+PjZR20ZQHt44ZWNi'>Iris | Антиспам дружина</a></i></b>\n\n"
             "<b><i>4. <emoji document_id=5240379805047728736>💰</emoji> "
             "<a href='https://t.me/iris_trade'>Iris | Биржа</a></i></b>\n\n"
-            "<b><i>5. <emoji document_id=5404573776253825754>🍬</emoji> "
+            "<b><i>5. <emoji document_id=5229073750317612510>🍬</emoji> "
             "<a href='https://t.me/iris_bonus'>Iris | Акции и бонусы</a></i></b>\n\n"
             "<b><i>6. <emoji document_id=5314678293977378981>☎️</emoji> "
             "<a href='https://t.me/iris_brief_chat'>Iris | Мастерская идей</a></i></b>\n\n"
